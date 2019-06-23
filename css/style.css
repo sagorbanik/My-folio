@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+.bor_0{
+    border:none !important;
+}
+.clr{
+    clear: both;
+}
+body{
+   font-family: 'Open Sans', sans-serif; 
+}
+.wrapper_full{
+    width: 100%;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* header_part css start */
+.header_part{
+    background: #02918c;
+}
+.logo{
+    width: 150px;
+    float: left;
+}
+.logo a img{
+    padding: 18px 0px 22px;
+}
+
+.menu{
+    width: 810px;
+    float: left;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 25px;
+    color: #ffffff;
+    transition: all linear .3s;
+}
+.menu ul li:last-child a{
+    padding-right: 0px;
+}
+.menu ul li.active a,
+.menu ul li:hover a{
+    color: #cfc91d;
+    transition: all linear .3s;
+}
+
+/* header_part css end */
+
+/* banner_part css start */
+.banner_part{
+    background:url(../images/banner.jpg);
+    padding: 200px 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner_content{
+    text-align: center;
+}
+.banner_content h5{
+    color: #fff;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.banner_content h2{
+    color: #fff;
+    font-size: 68px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-bottom: 10px;
+    letter-spacing: 15px;
+}
+.banner_content p{
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+/*.banner_content img{
+    margin-bottom: 50px;
+}*/
+.banner_content a{
+    display: inline-block;
+    padding: 15px 40px;
+    background: #cfc91d;
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    margin-top: 50px;
+}
+/* banner_part css end */
+
+/* about_part css start */
+.about_part{
+    padding: 100px 0px;
+}
+.common_heading{
+    padding-bottom: 80px;
+    text-align: center;
+}
+.service_heading h2,
+.common_heading h2{
+    color: #02918c;
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.service_heading img,
+.common_heading img{
+    padding-bottom: 20px;
+}
+.service_heading p,
+.common_heading p{
+    color: #7e8287;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    padding: 0px 25px;
+}
+.common_heading p span{
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.service_info{
+    width: 239px;
+    float: left;
+    border-right: 1px solid #d9dbdb;
+    padding: 35px 0px 50px;
+    text-align: center;
+}
+.service_info i{
+    font-size: 60px;
+    color: #31a5a1;
+    padding-bottom: 20px;
+}
+.service_info h3{
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+}
+.service_info p{
+    color: #7e8287;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 0px 50px;
+    line-height: 22px;
+}
+
+/* about_part css end */
+
+
+/* service_part  css start */
+.service_part{
+    background: url(../images/sevice_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0px 90px;
+}
+.service_main{
+    width: 480px;
+    float: left;
+}
+.service_heading{
+    width: 100%;
+    float: left;
+}
+.service_heading h2{
+    text-align: left;
+}
+.service_heading  p{
+    text-align: left;
+    padding: 0px 0px 50px;
+}
+.service_content{
+    width: 240px;
+    float: left;
+}
+.service_content i{
+    font-size: 34px;
+    color: #02918c;
+    padding-bottom: 15px;
+}
+.service_content h4{
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.service_content p{
+    color: #7e8287;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 24px;
+    padding-right: 20px;
+}
+.padd_t_50{
+    padding-top: 50px;
+}
+/* service_part part css end */
+
+/* work_part css start */
+.work_part{
+    padding: 100px 0px 0px;
+}
+.contact_top_part .common_heading p,
+.work_part .common_heading p{
+     padding-left: 200px;
+    padding-right: 200px;
+}
+
+.gly_img{
+    width: 25%;
+    float: left;
+    position: relative;
+}
+.gly_img img{
+    display:block;
+    width: 100%;
+}
+.gly_overlay{
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    left: 10%;
+    top: 10%;
+    text-align: center;
+    background: rgba(35, 152, 144, 0.81);
+    transform: scale(0);
+    transition:  all linear .3s;
+}
+.gly_overlay h5{
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 800;
+    padding-top: 50px;
+}
+.gly_overlay p{
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 15px 30px 0px;
+}
+.gly_img:hover .gly_overlay{
+    transform: scale(1);
+     transition:  all linear .3s;
+}
+/* work_part css end */
+
+/* contact_top_part css start */
+.contact_top_part{
+    padding: 100px 0px 0px;
+}
+.cantact_btm{
+    background: #0b0b0b;
+    padding: 20px 0px 60px;
+}
+.contact_form{
+    width: 660px;
+    padding: 50px 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact_form textarea,
+.contact_form input{
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #898989;
+    color: #898989;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+.contact_form textarea{
+    width: 100%;
+    resize: none;
+    height: 60px;
+}
+.contact_form button{
+    padding: 17px 60px;
+  /*  display: inline-block;*/
+    background: #cfc91d;
+    color: #0b1016;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+}
+/* contact_top_part css end */
+
+/* footer_part start */
+.footer_part{
+    background: #000000;
+    padding: 25px 0px;
+}
+.fotter{
+    text-align: center;
+}
+.fotter p{
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.fotter p a{
+    font-weight: 800;
+    color: #fff;
+}
+/* footer_part end */
+
+
+
+
+
+
+
